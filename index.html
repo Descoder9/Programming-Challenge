@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<Programming Challenge>
-    <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Customize your page title -->
-    <title>Code Crew Programming</title>
-    <!-- This is how you include the CSS file in your page -->
-    <link rel="stylesheet" href="styles.css"/>
+<html>
+<head>
+   <title>Welcome</title>
 </head>
 <body>
-    <!-- Customize your greeting -->
-    <h1>Hello World</h1>
-    <!-- Customize the text on your Link -->
-    <a href="./about.html">Link</a>
-    <script>
-        //alert("insert custom greeting here and uncomment this line so that it runs");
-    </script>
+   <input type="text" id="name" placeholder="Enter your name">
+   <button onclick="greet()">Submit</button>
+
+   <script>
+      function greet() {
+         var name = document.getElementById("name").value;
+         alert("Welcome " + World + "!");
+      }
+   </script>
 </body>
 </html>
